@@ -1,0 +1,28 @@
+body {
+    font-family: arial;
+}
+
+h1,
+h2 {
+    color: green;
+}
+
+ul li a {
+    color: orange;
+}
+
+ol li a {
+    color: blue;
+}
+
+.p1 {
+    color: brown;
+}
+
+#p2 {
+    color: chartreuse;
+}
+
+.cetak-tebal {
+    font-weight: bold;
+}

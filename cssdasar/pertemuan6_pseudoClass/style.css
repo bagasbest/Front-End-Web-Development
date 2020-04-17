@@ -1,0 +1,36 @@
+.hello:link {
+    color: orange;
+}
+
+.hello:hover {
+    font-weight: bold;
+}
+
+.hello:active {
+    color: rgb(255, 187, 0);
+    font-size: large;
+}
+
+.hello:visited {
+    color: red;
+}
+
+li:nth-child(5) a {
+    color: green;
+}
+
+li:first-child a {
+    color: hotpink;
+}
+
+li:last-child a {
+    color: indigo;
+}
+
+li:nth-child(odd) a:hover {
+    color: red;
+}
+
+p:first-of-type {
+    color: salmon;
+}
