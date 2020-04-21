@@ -1,0 +1,16 @@
+a {
+    display: inline-block;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+
+img {
+    height: 400px;
+    width: 300px;
+}

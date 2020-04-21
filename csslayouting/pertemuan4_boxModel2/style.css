@@ -1,0 +1,26 @@
+/* CSS box model terdiri dari 
+margin, border, padding dan content */
+
+/* div {
+    display: inline-block;
+} */
+
+div {
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+
+
+}
+
+
+.satu {
+    background-color: blue;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.dua {
+    background-color: red;
+    padding: 10px dashed green;
+}
