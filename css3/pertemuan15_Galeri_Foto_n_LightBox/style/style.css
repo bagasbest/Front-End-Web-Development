@@ -108,15 +108,58 @@ h1 {
 
 .overlay img {
     max-height: 100%;
+    max-width: 100%;
     box-shadow: -5px 10px 10px black;
     border-radius: 10px;
 }
 
 .overlay:target img {
-    animation: zoomAnim 1s;
+    animation: fade 1s;
+}
+
+.overlay:target .next {
+    animation: fade .5s .5s forwards;
+}
+
+.overlay:target .prev {
+    animation: fade .5s .5s forwards;
+}
+
+/* Navigasi */
+.next {
+    width: 96px;
+    height: 96px;
+    background: url(../asset/icon/next.png);
+    position: absolute;
+    text-indent: -9999px;
+    top: 45%;
+    margin-left: 20px;
+    opacity: 0;
+}
+
+.prev {
+    width: 96px;
+    height: 96px;
+    background: url(../asset/icon/prev.png);
+    position: absolute;
+    text-indent: -9999px;
+    top: 45%;
+    margin-left: -100px;
+    opacity: 0;
+
 }
 
 /* Animasi */
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 @keyframes zoomAnim {
     0% {
