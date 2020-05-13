@@ -1,0 +1,65 @@
+/* fix footer */
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+
+.jumbotron img {
+    width: 150px;
+    border: 4px solid rgb(117, 117, 117);
+    height: 180px;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #999;
+
+}
+
+section {
+    min-height: 600px;
+}
+
+.portfolio hr {
+    width: 250px;
+    border-top: 3px solid #999;
+}
+
+.portfolio {
+    background-color: rgb(221, 221, 221);
+}
+
+.container img,
+.row h2 {
+    margin-top: 30px;
+}
+
+form button {
+    margin-bottom: 30px;
+}
+
+.contact {
+    min-height: 800px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #333;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 1em;
+    padding-top: 15px;
+}
+
+footer svg {
+    color: red;
+}
