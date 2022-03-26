@@ -9,7 +9,7 @@
     "cli-cursor": "^3.1.0",
     "iconv-lite": "^0.4.24",
     "minimatch": "^3.0.4",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mkdirp": "^0.5.5",
     "ms": "^2.1.2",
     "nice-try": "^1.0.5",
